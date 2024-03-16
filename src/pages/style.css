@@ -1,0 +1,97 @@
+.hhhh{
+    /* background-color: #191919; */
+    color: white;
+}
+
+.container{
+    display: flex;
+    gap: 2px;
+}
+
+.cc{
+    flex:1;
+    border: 1.5px solid gray;
+    height: 85vh;
+    overflow: hidden;
+    margin-top: 5px;    
+    border-radius: 5px;
+}
+
+.heading{
+    height: 90px;
+    background-color: rgb(249, 244, 244);
+    padding: 5px;
+    color:black;
+    border-bottom: 1px solid black;
+}
+
+.processes{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    overflow-y: scroll;
+    height: 69vh;
+    /* background-color: antiquewhite; */
+}
+
+
+::-webkit-scrollbar{
+    width: 2px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: gray;
+}
+
+
+li{
+    border: 1px solid white;
+    list-style-type: none;
+    padding: 5px;
+    margin:5px;
+}
+
+.final > li{
+    /* border: 2px solid rgb(16, 183, 83); */
+    background-color: #4E9F3D;
+    color: white;
+}
+
+.present{
+    background-color: #4E9F3D;
+    /* border: 2px solid rgb(16, 183, 83); */
+    color: white;
+}
+
+button{
+    padding:10px 8px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    animation: buttonSizeChange 2s ease-in-out infinite;
+}
+@keyframes buttonSizeChange {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+      }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.unselectable {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    margin-left: 1200px;
+    font-size: 16px;
+}
