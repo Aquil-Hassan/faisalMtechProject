@@ -28,7 +28,7 @@ const CastingProcessComponent = () => {
         formData.append('mass', mass);
         formData.append('choiceshape', choiceshape);
         try {
-            const response = await fetch('http://aquil.pythonanywhere.com/run', {
+            const response = await fetch('https://aquil.pythonanywhere.com/run', {
                 method: 'POST',
                 body: formData,
             });
